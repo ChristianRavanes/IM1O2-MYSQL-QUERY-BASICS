@@ -1,0 +1,7 @@
+DELIMITER $$
+CREATE PROCEDURE GetSno3()
+BEGIN
+	SELECT * FROM customers
+	Where CustomerID LIKE 'S%';
+END$$
+DELIMITER ;

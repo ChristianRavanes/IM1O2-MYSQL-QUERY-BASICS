@@ -1,0 +1,6 @@
+DELIMITER $$
+CREATE PROCEDURE GETno9()
+BEGIN
+	Select * From Shippers;
+END$$
+DELIMITER ;
